@@ -93,10 +93,7 @@ print """
 ██║  ██║███████╗██║██║     
 ╚═╝  ╚═╝╚══════╝╚═╝╚═╝     
 ────────────────────────────────────────────────────
-\033[1;93m             
 \033[1;93m               
-\033[1;93m               
-\033[1;93m              
 \033[1;93m             
 \033[1;91m   ╔══════════════════════════════════════╗
 \033[1;93m                                             
@@ -123,9 +120,7 @@ logo= """
 ██╔══██║██║     ██║██╔══╝  
 ██║  ██║███████╗██║██║     
 ╚═╝  ╚═╝╚══════╝╚═╝╚═╝     
-\033[1;95m            
-\033[1;95m             
-\033[1;95m              
+
 \033[1;95m             
 \033[1;93m            
 """
@@ -351,7 +346,7 @@ def own():
         passmenu()
 
     print 50 * '\033[1;95m◈'
-    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ ALIF Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
+    print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ Cloning Process Has Been Started ◈◈◈◈◈◈◈◈'
     print '\x1b[1;37;40m◈◈◈◈◈◈◈◈ To Stop The Process Press CTRl+Z ◈◈◈◈◈◈◈◈'
     xxx = str(len(id))
     jalan('\033[1;97m[✅] \x1b[1;97mTotal Numbers: ' + xxx)
@@ -387,7 +382,6 @@ def own():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;95m'
-    print '\x1b[1;95m◈◈◈◈◈◈◈◈◈◈◈ Developed By ALIF VAU ◈◈◈◈◈◈◈◈◈◈◈ '
     print '[✅] Process Has Been Completed ...'
     print '[✅] Total Active/In-Active : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[✅] Cloned Accounts Has Been Saved : cloned/idz.txt'
